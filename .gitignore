@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.pyc
+
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+reports/**/*.png
+reports/**/*.json
+reports/**/*.csv
+!reports/.gitkeep
+
+models/
+*.pt
+*.pth
+.pytest_cache/
+*.egg-info/
+
+# scratch logs from ad-hoc background runs, not part of the codebase
+_*.log
+_*.pid
